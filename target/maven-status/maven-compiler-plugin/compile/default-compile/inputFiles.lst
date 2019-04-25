@@ -1,0 +1,13 @@
+/home/ivan/Desktop/saas-backend/src/main/java/bg/unwe/saasbackend/RESTApplication.java
+/home/ivan/Desktop/saas-backend/src/main/java/bg/unwe/saasbackend/resource/UserResource.java
+/home/ivan/Desktop/saas-backend/src/main/java/bg/unwe/saasbackend/model/AbstractEntity.java
+/home/ivan/Desktop/saas-backend/src/main/java/bg/unwe/saasbackend/repo/ProductRepository.java
+/home/ivan/Desktop/saas-backend/src/main/java/bg/unwe/saasbackend/dto/ProductDTO.java
+/home/ivan/Desktop/saas-backend/src/main/java/bg/unwe/saasbackend/resource/Hello.java
+/home/ivan/Desktop/saas-backend/src/main/java/bg/unwe/saasbackend/dto/UserDTO.java
+/home/ivan/Desktop/saas-backend/src/main/java/bg/unwe/saasbackend/model/Role.java
+/home/ivan/Desktop/saas-backend/src/main/java/bg/unwe/saasbackend/model/Product.java
+/home/ivan/Desktop/saas-backend/src/main/java/bg/unwe/saasbackend/repo/UserRepository.java
+/home/ivan/Desktop/saas-backend/src/main/java/bg/unwe/saasbackend/resource/ProductsResource.java
+/home/ivan/Desktop/saas-backend/src/main/java/bg/unwe/saasbackend/resource/CRUDResource.java
+/home/ivan/Desktop/saas-backend/src/main/java/bg/unwe/saasbackend/model/User.java
