@@ -4,7 +4,16 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/model/User.java" line="6" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7ed3287-aa60-45ab-9b55-a9af78412bfe" name="Default Changelist" comment="" />
+    <list default="true" id="c7ed3287-aa60-45ab-9b55-a9af78412bfe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/model/UserProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3f92bdf0-8308-4411-ad2d-5d23cba517e9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3f92bdf0-8308-4411-ad2d-5d23cba517e9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/resource/ProductsResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/resource/ProductsResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/application-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/application-info.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,149 +49,133 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="DiplomnaDB: schema" type="ebfa3cd1:MariaImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="DiplomnaDB" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="DiplomnaDB: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="Product: table" type="dbc44a63:MariaImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.50142246">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/resource/ProductsResource.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="690">
-                  <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#2889#2890#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/dto/ProductDTO.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#582#583#0" expanded="true" />
-                    <element signature="e#607#608#0" expanded="true" />
-                    <element signature="e#641#642#0" expanded="true" />
-                    <element signature="e#669#670#0" expanded="true" />
-                    <element signature="e#700#701#0" expanded="true" />
-                    <element signature="e#727#728#0" expanded="true" />
-                    <element signature="e#767#768#0" expanded="true" />
-                    <element signature="e#799#800#0" expanded="true" />
-                    <element signature="e#837#838#0" expanded="true" />
-                    <element signature="e#871#872#0" expanded="true" />
-                    <element signature="e#925#926#0" expanded="true" />
-                    <element signature="e#971#972#0" expanded="true" />
-                    <element signature="e#1007#1008#0" expanded="true" />
-                    <element signature="e#1035#1036#0" expanded="true" />
-                    <element signature="e#1081#1082#0" expanded="true" />
-                    <element signature="e#1115#1116#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/model/Product.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="607">
-                  <caret line="47" column="30" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="30" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#0#44#1" expanded="true" />
-                    <element signature="e#0#23#1" expanded="true" />
-                    <element signature="e#0#39#1" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/repo/ProductRepository.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="185">
-                  <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/repo/UserRepository.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" selection-start-line="13" selection-end-line="13" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/resource/UserResource.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-278">
-                  <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/dto/UserDTO.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/model/User.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-                  <folding>
-                    <element signature="e#0#49#1" expanded="true" />
-                    <element signature="e#0#20#1" expanded="true" />
-                    <element signature="e#0#35#1" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/resource/ProductsResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/model/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/model/UserProduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://3f92bdf0-8308-4411-ad2d-5d23cba517e9/schema/DiplomnaDB/table/UserProduct">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="09513ccb-6c9f-4d98-a55a-b6c53af3a925">
+              <filtering />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="55" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="55" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://DATABASE/3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.id_generator">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.id_generator</OriginalElement>
+              <nodes>
+                <node x="110.25" y="187.0">3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.UserProduct</node>
+                <node x="0.0" y="325.0">3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.id_generator</node>
+                <node x="202.0" y="0.0">3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.Product</node>
+                <node x="0.0" y="0.0">3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.User</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.UserProduct" target="3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.User">
+                  <point x="-42.0" y="-46.5" />
+                  <point x="152.25" y="162.0" />
+                  <point x="91.0" y="162.0" />
+                  <point x="0.0" y="68.5" />
+                </edge>
+                <edge source="3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.UserProduct" target="3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.Product">
+                  <point x="42.0" y="-46.5" />
+                  <point x="236.25" y="162.0" />
+                  <point x="297.5" y="162.0" />
+                  <point x="0.0" y="68.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.8775137111517367" x="518.4322916666667" y="347.25937500000003" />
+              <SelectedNodes>
+                <node>3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.id_generator</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/repo/ProductRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -198,6 +191,9 @@
       <find>Abstract</find>
       <find>DELETE_USER_BY_ID</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -216,14 +212,15 @@
         <option value="$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/resource/Hello.java" />
         <option value="$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/resource/CRUDResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/dto/UserDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/resource/UserResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/repo/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/repo/ProductRepository.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/model/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/dto/ProductDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/resource/ProductsResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/dto/ProductDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/model/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/model/UserProduct.java" />
       </list>
     </option>
   </component>
@@ -235,17 +232,14 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2" />
-    <option name="width" value="1924" />
-    <option name="height" value="1082" />
+    <option name="width" value="1920" />
+    <option name="height" value="540" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -334,14 +328,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Regex_Testing" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -390,30 +387,28 @@
       <option name="presentableId" value="Default" />
       <updated>1556188421313</updated>
       <workItem from="1556188422572" duration="15850000" />
+      <workItem from="1556285875831" duration="1163000" />
+      <workItem from="1556778509848" duration="46000" />
+      <workItem from="1557995913814" duration="897000" />
+      <workItem from="1557997256280" duration="631000" />
+      <workItem from="1558005817957" duration="605000" />
+      <workItem from="1558006614544" duration="44000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15850000" />
+    <option name="totallyTimeSpent" value="19236000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1924" height="1082" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19861555" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32985386" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.10960334" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32985386" />
-      <window_info anchor="bottom" id="Java Enterprise" weight="0.32985386" />
-      <window_info anchor="bottom" id="Database Changes" weight="0.32985386" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32985386" />
@@ -421,17 +416,25 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="CDI" />
-      <window_info anchor="right" id="Database" weight="0.32977587" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" weight="0.32977587" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32985386" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29375" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32985386" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32985386" />
+      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32985386" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2497332" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="CDI" order="6" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.24494143" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32977587" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -472,31 +475,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/beans.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/repo/AbstractRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/beans.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/repo/AbstractRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/model/AbstractEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -562,7 +548,7 @@
     <entry file="das://3f92bdf0-8308-4411-ad2d-5d23cba517e9/schema/DiplomnaDB/table/User">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
-          <filtering enabled="true">
+          <filtering>
             <filter text="" />
           </filtering>
         </state>
@@ -578,61 +564,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/repo/ProductRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://3f92bdf0-8308-4411-ad2d-5d23cba517e9/schema/DiplomnaDB/table/Product">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
-          <filtering enabled="true">
+          <filtering>
             <filter text="" />
           </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/repo/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/dto/UserDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="120">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/model/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/resource/UserResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        <state relative-caret-position="-13">
+          <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
           <folding>
-            <element signature="e#0#49#1" expanded="true" />
-            <element signature="e#0#20#1" expanded="true" />
-            <element signature="e#0#35#1" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/dto/UserDTO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/repo/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="90">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -641,34 +605,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/dto/ProductDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        <state relative-caret-position="511">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
             <element signature="e#837#838#0" expanded="true" />
             <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/resource/UserResource.java">
+    <entry file="das://3f92bdf0-8308-4411-ad2d-5d23cba517e9/schema/DiplomnaDB/table/User_Product" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/resource/ProductsResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-278">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="990">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -677,25 +630,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/model/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="47" column="30" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="30" />
+        <state relative-caret-position="300">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#0#44#1" expanded="true" />
-            <element signature="e#0#23#1" expanded="true" />
-            <element signature="e#0#39#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/resource/ProductsResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/model/UserProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+        <state relative-caret-position="330">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2889#2890#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3f92bdf0-8308-4411-ad2d-5d23cba517e9/schema/DiplomnaDB/table/UserProduct">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="09513ccb-6c9f-4d98-a55a-b6c53af3a925">
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="55" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="55" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bg/unwe/saasbackend/repo/ProductRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.id_generator">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.id_generator</OriginalElement>
+          <nodes>
+            <node x="110.25" y="187.0">3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.UserProduct</node>
+            <node x="0.0" y="325.0">3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.id_generator</node>
+            <node x="202.0" y="0.0">3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.Product</node>
+            <node x="0.0" y="0.0">3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.User</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.UserProduct" target="3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.User">
+              <point x="-42.0" y="-46.5" />
+              <point x="152.25" y="162.0" />
+              <point x="91.0" y="162.0" />
+              <point x="0.0" y="68.5" />
+            </edge>
+            <edge source="3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.UserProduct" target="3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.Product">
+              <point x="42.0" y="-46.5" />
+              <point x="236.25" y="162.0" />
+              <point x="297.5" y="162.0" />
+              <point x="0.0" y="68.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8775137111517367" x="518.4322916666667" y="347.25937500000003" />
+          <SelectedNodes>
+            <node>3f92bdf0-8308-4411-ad2d-5d23cba517e9.TABLE:DiplomnaDB.id_generator</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>

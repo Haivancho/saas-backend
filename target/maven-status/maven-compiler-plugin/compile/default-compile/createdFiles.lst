@@ -3,6 +3,7 @@ bg/unwe/saasbackend/resource/ProductsResource.class
 bg/unwe/saasbackend/resource/Hello.class
 bg/unwe/saasbackend/model/AbstractEntity.class
 bg/unwe/saasbackend/model/Role.class
+bg/unwe/saasbackend/model/UserProduct.class
 bg/unwe/saasbackend/dto/UserDTO.class
 bg/unwe/saasbackend/resource/CRUDResource.class
 bg/unwe/saasbackend/repo/UserRepository.class

@@ -28,11 +28,11 @@ public class ProductsResource implements CRUDResource<ProductDTO> {
     @Produces(MediaType.APPLICATION_JSON)
     @Override
     public Response create(@Valid ProductDTO productDTO) {
-        if(productRepository.getProductByName(productDTO.getName()).isPresent()){
-            return  Response.status(Response.Status.CONFLICT).build();
-        }else {
-            Product product = productRepository.save(new Product(productDTO.getName(),productDTO.getDescription(),productDTO.getPrice()));
-            return Response.ok(new ProductDTO(product.getId(),product.getName(),product.getDescription(),product.getPrice())).build();
+        if (productRepository.getProductByName(productDTO.getName()).isPresent()) {
+            return Response.status(Response.Status.CONFLICT).build();
+        } else {
+            Product product = productRepository.save(new Product(productDTO.getName(), productDTO.getDescription(), productDTO.getPrice()));
+            return Response.ok(new ProductDTO(product.getId(), product.getName(), product.getDescription(), product.getPrice())).build();
 
         }
     }
@@ -45,9 +45,9 @@ public class ProductsResource implements CRUDResource<ProductDTO> {
 
         ProductDTO[] productS = new ProductDTO[allProducts.size()];
 
-        for (int i = 0; i <allProducts.size() ; i++) {
+        for (int i = 0; i < allProducts.size(); i++) {
             Product product = allProducts.get(i);
-            productS[i] = new ProductDTO(product.getId(),product.getName(),product.getDescription(),product.getPrice());
+            productS[i] = new ProductDTO(product.getId(), product.getName(), product.getDescription(), product.getPrice());
         }
         return Response.ok(productS).build();
     }
@@ -59,10 +59,9 @@ public class ProductsResource implements CRUDResource<ProductDTO> {
     public Response getById(@PathParam("id") Long id) {
         Optional<Product> product = productRepository.getProductById(id);
 
-        if(product.isPresent()){
+        if (product.isPresent()) {
             return Response.ok(new ProductDTO(product.get())).build();
-        }
-        else {
+        } else {
             return Response.status(Response.Status.NOT_FOUND).build();
         }
     }
@@ -73,21 +72,32 @@ public class ProductsResource implements CRUDResource<ProductDTO> {
     @Transactional
     @Override
     public Response update(ProductDTO productDTO) {
-        Optional<Product> product =productRepository.getProductById(productDTO.getId());
+        Optional<Product> optProduct = productRepository.getProductById(productDTO.getId());
 
-        if(product.isPresent()){
-            Product product1 = product.get();
-            if (productDTO.getDescription() != null){
-                product1.setDescription(product1.getDescription());
-            }
-            if(productDTO.){
+        if (optProduct.isPresent()) {
+            Product product = optProduct.get();
 
+            if (productDTO.getDescription() != null) {
+                product.setDescription(product.getDescription());
             }
+            if (productDTO.getPrice() != null) {
+                product.setPrice(productDTO.getPrice());
+            }
+            return Response.ok(new ProductDTO(product)).build();
+        } else {
+            return Response.status(Response.Status.NOT_FOUND).build();
         }
+
     }
 
+    @DELETE
+    @Path("/{id}")
+    @Transactional
     @Override
-    public Response delete(Long id) {
-        return null;
+    public Response delete(@PathParam("id") Long id) {
+
+        productRepository.deleteProduct(id);
+        return Response.status(Response.Status.NO_CONTENT).build();
+
     }
 }
